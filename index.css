@@ -1,0 +1,32 @@
+/* table,
+th,
+td {
+  border: 1px solid black; /* border solid is strait line and black is color 
+} */
+
+/* padding (it gives inner spacing) */
+/* margin (it gives outter spacing) */
+/* these have multiple options like: top, bottom, right, left */
+
+table,
+th,
+td {
+  border-collapse: collapse;
+}
+th,
+td {
+  padding: 15px;
+}
+
+.dotted {
+  border: 5px dotted red;
+  border-collapse: collapse;
+}
+.dashed {
+  border: 5px dashed blue;
+  border-collapse: collapse;
+}
+.solid {
+  border: 5px solid green;
+  border-collapse: collapse;
+}
