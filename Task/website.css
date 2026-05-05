@@ -1,0 +1,43 @@
+h1 {
+  color: black;
+  text-align: center;
+  font-size: 42px;
+  letter-spacing: 2px;
+}
+h4 {
+  color: black;
+  text-align: center;
+}
+button {
+  align-items: center;
+}
+.leftSide {
+  width: 60%;
+  color: black;
+  text-align: top left;
+}
+
+.rightSide {
+  display: flex;
+  justify-content: end;
+  gap: 10px;
+  width: 40%;
+  color: gray;
+  padding: 20px 40px;
+}
+
+.heroSection {
+  text-align: center;
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
+.logo1 {
+  background-color: antiquewhite;
+  width: 40%;
+  padding: 20px 50px;
+  color: black;
+  font-size: 30px;
+  font-weight: 700;
+  padding: 100px;
+}
