@@ -6,35 +6,34 @@
   gap: 30px;
 }
 
-.leftSide {
-  color: black;
-}
-
 .center {
   display: flex;
   gap: 20px;
   color: rgb(165, 163, 163);
 }
+
 .contact {
   margin-left: auto;
 }
+
 .agency {
   background-color: rgb(183, 183, 241);
   color: blue;
   border-radius: 5px;
+  padding: 5px 10px;
+  display: inline-block;
 }
+
 img {
   width: 400px;
-  text-align: right;
 }
+
 body {
   font-family: Arial, Helvetica, sans-serif;
   background-color: #f5f5f5;
 }
 
 .about-section {
-  display: flex;
-  text-align: center;
   padding: 80px 50px;
 }
 
@@ -57,7 +56,6 @@ body {
   padding: 30px;
   border-radius: 20px;
   text-align: left;
-
   box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.08);
 }
 
@@ -67,12 +65,25 @@ body {
   border-radius: 50%;
   margin-bottom: 20px;
 }
+
+.blue {
+  background-color: blue;
+}
+
+.pink {
+  background-color: hotpink;
+}
+
+.orange {
+  background-color: orange;
+}
+
 .left {
   text-align: left;
-  padding: auto;
+  margin-top: 50px;
 }
+
 .title {
-  text-align: left;
   font-size: 50px;
   line-height: 1.2;
 }
