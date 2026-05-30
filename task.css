@@ -1,9 +1,38 @@
 .navbar {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
   padding: 20px 40px;
-  gap: 30px;
+}
+
+.menu {
+  display: flex;
+  gap: 20px;
+  color: rgb(165, 163, 163);
+}
+
+.right-side {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-btn {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+.main-image {
+  width: 320px;
+  border-radius: 20px;
+
+  position: absolute;
+  padding: 500px;
+  top: 520px;
+  right: 80px;
 }
 
 .center {
@@ -15,6 +44,12 @@
 .contact {
   margin-left: auto;
 }
+.hero-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-top: 20px;
+}
 
 .agency {
   background-color: rgb(183, 183, 241);
@@ -22,6 +57,7 @@
   border-radius: 5px;
   padding: 5px 10px;
   display: inline-block;
+  margin-top: -50px;
 }
 
 img {
@@ -86,4 +122,8 @@ body {
 .title {
   font-size: 50px;
   line-height: 1.2;
+}
+
+.free {
+  display: flex;
 }
