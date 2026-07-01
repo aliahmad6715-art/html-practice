@@ -1,8 +1,22 @@
 .navbar {
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
-  padding: 20px 40px;
+  align-items: center;
+
+  border-bottom: 2px solid rgb(122, 120, 120);
+  padding: 15px 20px;
+}
+
+.logo {
+  border-right: 2px solid lightgrey;
+}
+
+.contact-btn {
+  border-left: 2px solid lightgrey;
+}
+
+.navbar {
+  border-bottom: 2px solid lightgrey;
 }
 
 .menu {
@@ -13,7 +27,7 @@
 
 .right-side {
   display: flex;
-  flex-direction: column;
+
   align-items: center;
 }
 
@@ -58,6 +72,7 @@
   padding: 5px 10px;
   display: inline-block;
   margin-top: -50px;
+  margin-left: 30px;
 }
 
 img {
@@ -126,4 +141,31 @@ body {
 
 .free {
   display: flex;
+  gap: 20px;
+  align-items: center;
+  margin-left: 500px;
+  margin-right: 100px;
+  gap: 100px;
+}
+.imagine {
+  margin-left: 500px;
+  flex-direction: row;
+}
+.blue-section {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+  background-color: blue;
+  padding: 30px 15px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.blue-section img {
+  width: 50%;
+  max-width: 450px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 8px;
 }
