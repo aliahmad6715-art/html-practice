@@ -1,0 +1,32 @@
+header {
+  background-color: skyblue;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+.box {
+  background-color: white;
+  width: 70%;
+  margin: 25px auto;
+  border-radius: 8px;
+  padding: 20px;
+}
+h2 {
+  color: purple;
+}
+p,
+li {
+  font-size: 20px;
+}
+ul {
+  margin-left: 30px;
+}
+ol {
+  margin-left: 30px;
+}
+footer {
+  background-color: skyblue;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
