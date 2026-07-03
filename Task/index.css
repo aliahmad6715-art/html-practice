@@ -1,28 +1,45 @@
+body {
+  background-color: whitesmoke;
+  font-family: Arial;
+  margin: 0;
+}
+
 header {
-  background-color: rgb(93, 4, 93);
+  background-color: purple;
   color: white;
   text-align: center;
   padding: 20px;
 }
 
+a {
+  color: white;
+  text-decoration: none;
+  margin: 15px;
+}
+
 .content {
   background-color: white;
-  margin: 10px;
-  width: 70%;
+  width: 80%;
+  margin: 30px auto;
   padding: 20px;
+  border-radius: 10px;
 }
+
 h2 {
   color: black;
 }
+
 p {
   color: gray;
 }
+
+hr {
+  color: lightgray;
+}
+
 footer {
-  background-color: rgb(69, 7, 69);
+  background-color: purple;
   color: white;
   text-align: center;
   padding: 20px;
-}
-a {
-  color: white;
 }
