@@ -1,8 +1,14 @@
+body {
+  margin: 0;
+  background-color: yellow;
+}
+
 header {
   background-color: skyblue;
   color: white;
   text-align: center;
   padding: 20px;
+  width: 100%;
 }
 .box {
   background-color: white;
